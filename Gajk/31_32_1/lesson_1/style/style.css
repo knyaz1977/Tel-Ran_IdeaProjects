@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1{
+    color: blue;
+}
+p{
+padding: 15px;
+margin: 15px 0;
+border: 2px dotted black;
+width: 350px;
+}
+.biography{
+    background-color: bisque;
+}
+.profession{
+    background-color: goldenrod;
+}
+.story{
+    background-color: #A3CB38;
+}
+#main{
+    background-color: azure;
+}
