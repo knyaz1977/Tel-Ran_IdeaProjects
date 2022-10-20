@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f51f1d87-f379-4a67-a5c5-e4482e6660ed" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms_20.10.2022_Celebrity.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Famous.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example_17.10.2022_Homework_Stream_API/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example_17.10.2022_Homework_Stream_API/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example_17.10.2022_Homework_Stream_API/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example_17.10.2022_Homework_Stream_API/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example_17.10.2022_Homework_Stream_API/Example_17.10.2022_Homework_Stream_API.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example_17.10.2022_Homework_Stream_API/out/production/Example_17.10.2022_Homework_Stream_API/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example_17.10.2022_Homework_Stream_API/src/KMP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example_17.10.2022_Homework_Stream_API/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example_17.10.2022_InputStream/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example_17.10.2022_InputStream/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example_17.10.2022_InputStream/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example_17.10.2022_InputStream/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example_17.10.2022_InputStream/Example_17.10.2022_InputStream.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example_17.10.2022_InputStream/out/production/Example_17.10.2022_InputStream/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example_17.10.2022_InputStream/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example_17.10.2022_InputStream/src/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example_19.10.2022_file_copy/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example_19.10.2022_file_copy/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example_19.10.2022_file_copy/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example_19.10.2022_file_copy/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example_19.10.2022_file_copy/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example_19.10.2022_file_copy/Example_19.10.2022_file_copy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example_19.10.2022_file_copy/out/production/Example_19.10.2022_file_copy/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example_19.10.2022_file_copy/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example_19.10.2022_file_copy/src/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example_19.10.2022_file_copy/src/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example_19.10.2022_file_copy/src/TryCatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_18.10.2022_file_searching/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task_Java_18.10.2022/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task_Java_18.10.2022/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task_Java_18.10.2022/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task_Java_18.10.2022/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task_Java_18.10.2022/Task_Java_18.10.2022.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task_Java_18.10.2022/out/production/Task_Java_18.10.2022/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task_Java_18.10.2022/out/production/Task_Java_18.10.2022/Main2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task_Java_18.10.2022/out/production/Task_Java_18.10.2022/Stats.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task_Java_18.10.2022/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task_Java_18.10.2022/src/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task_Java_18.10.2022_Stream/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task_Java_18.10.2022_Stream/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task_Java_18.10.2022_Stream/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task_Java_18.10.2022_Stream/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task_Java_18.10.2022_Stream/Task_Java_18.10.2022_Stream.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task_Java_18.10.2022_Stream/src/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task_Java_18.10.2022_Stream/src/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task_Java_18.10.2022_Stream/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlgorithmsQATelRan_Michael/src/_13102022/filesearcher/FileSearcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgorithmsQATelRan_Michael/src/_13102022/filesearcher/FileSearcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_18.10.2022_file_searching/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_18.10.2022_file_searching/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GOHb0Wl3Ic55aTUovUeAgj6vqN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/IdeaProjects/AlgorithmsQATelRan_Michael"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Algorithms_20.10.2022_Celebrity" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f51f1d87-f379-4a67-a5c5-e4482e6660ed" name="Changes" comment="" />
+      <created>1666252782241</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666252782241</updated>
+      <workItem from="1666252784675" duration="4956000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
