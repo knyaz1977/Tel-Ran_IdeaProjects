@@ -6,16 +6,17 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         // try{}catch() - нужен для проверки на ошибку
-        try {
-            FileInputStream fis = new FileInputStream("C:\\Users\\Dmitry\\Desktop\\1.txt");
-            System.out.println(fis.available());
+        try { // try - блок
+            FileInputStream fis = new FileInputStream("C:\\Users\\Dmitry\\Desktop\\5.txt"); // указываем не существующий файл
+            System.out.println(fis.available()); // выводит количество байтов в файле
             fis.close();
-        } catch (ArithmeticException e ) {
-            System.out.println("Error: " + e.getMessage());
+        } catch (ArithmeticException e ) { // catch - отловить
+            System.out.println("Error: " + e.getMessage()); // getMessage() - это сообщение об ошибке!
         } catch (FileNotFoundException e) { // В скобках указываем на какую ошибку мы проверяем.
-//            e.printStackTrace();
-//            System.out.println("Error: File not found!");
-            System.out.println("Error:" + e.getMessage());
+//            e.printStackTrace(); // printStackTrace()
+//            e.getMessage(); // getMessage() - это сообщение об ошибке!
+            System.out.println("Error: File not found!");
+//            System.out.println("Error:" + e.getMessage());
         } catch (IndexOutOfBoundsException e) {
             e.printStackTrace(); //
         }

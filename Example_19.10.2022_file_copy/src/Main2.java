@@ -11,12 +11,12 @@ public class Main2 {
             FileInputStream fis = new FileInputStream("C:\\Users\\Dmitry\\Desktop\\1.txt");
             System.out.println(fis.available());
             fis.close();
-            // далее идут арифметические вычисления над считанными данными
+            // предположим, что далее идут арифметические вычисления над считанными данными
         } catch (FileNotFoundException fnfe) { // В скобках указываем на какую ошибку мы проверяем.
             fnfe.getMessage(); // можно применять различные методы к fnfe.
-            System.out.println("Error: message2");
-        } catch (IOException ioe) {
             System.out.println("Error: message1");
+        } catch (IOException ioe) {
+            System.out.println("Error: message2");
         } catch (Exception e) { // Exception ставят в конце, всегда сработает
             System.out.println("Error: message3");
         } finally {
@@ -30,7 +30,22 @@ public class Main2 {
 //        try {
 //            // здесь что-то делается
 //        } catch (Exception e) {
-//            e.printStackTrace(); // ?????????
+//            e.printStackTrace(); //
+//        printStackTrace - это метод класса Throwable.
+//        Этот метод выводит в консоль сообщение об ошибке;
+//        где мы получаем исключение в исходном коде.
+//        Эти методы можно использовать с блоком catch
+//        и в них описываются:
+//
+//        Имя исключения.
+//        Описание исключения.
+//        Место расположения исключения в исходном коде.
+//        Три метода, которые описывают исключение на консоли
+//        (в которых printStackTrace - один из них) это:
+//
+//        - printStackTrace()
+//        - toString()
+//        - getMessage()
 //        }
     }
 }
