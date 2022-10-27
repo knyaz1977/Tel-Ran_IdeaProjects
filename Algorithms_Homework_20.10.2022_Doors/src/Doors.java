@@ -16,7 +16,7 @@ public class Doors {
         for (int i = 0; i < 100; i++) {
             arrayDoor.add(i + 1);
         }
-        System.out.println(arrayDoor);
+//        System.out.println(arrayDoor);
 
         Map<Integer, Integer> map = new HashMap<>();
         int j = 0;
@@ -32,12 +32,17 @@ public class Doors {
             j = 0;
             j = j + i;
         }
+        int counter = 0;
         for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
             if (entry.getValue() % 2 == 0) {
                 System.out.println("Door number " + entry.getKey() + " was opened/closed  " + entry.getValue() + " times. " + " The door is closed");     // выводим ключ/и(key) с максимальным значением!
             } else {
+                counter++;
                 System.out.println("Door number " + entry.getKey() + " was opened/closed  " + entry.getValue() + " times. " + " The door is open");
             }
         }
+        System.out.println();
+        System.out.println("The number of open doors is " + counter);
+
     }
 }

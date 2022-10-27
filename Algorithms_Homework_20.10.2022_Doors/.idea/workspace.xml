@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15c2ab20-9825-489b-8ffe-4aa425dc95f5" name="Changes" comment="">
+    <list default="true" id="15c2ab20-9825-489b-8ffe-4aa425dc95f5" name="Changes" comment="Algorithms Doors">
       <change afterPath="$PROJECT_DIR$/../Algorithms_20.10.2022_Celebrity/out/production/Algorithms_20.10.2022_Celebrity/Famous.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Algorithms_20.10.2022_Celebrity/out/production/Algorithms_20.10.2022_Celebrity/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms_Homework_20.10.2022_Doors.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/Algorithms_Homework_20.10.2022_Doors/Doors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Doors.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Example_01.06.2022/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Example_14.09.2022_Homework_HashMap/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Example_17.10.2022_Homework_Stream_API/.idea/.gitignore" afterDir="false" />
@@ -109,6 +103,8 @@
       <change afterPath="$PROJECT_DIR$/../Task_Java_25.10.2022/src/task2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AlgorithmsQATelRan_Michael/src/_13102022/filesearcher/FileSearcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AlgorithmsQATelRan_Michael/src/_13102022/filesearcher/FileSearcher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithms_20.10.2022_Celebrity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithms_20.10.2022_Celebrity/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Doors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Doors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Example_14.09.2022_Homework_HashMap/out/production/Example_14.09.2022_Homework_HashMap/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Example_14.09.2022_Homework_HashMap/out/production/Example_14.09.2022_Homework_HashMap/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Example_14.09.2022_Homework_HashMap/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Example_14.09.2022_Homework_HashMap/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Example_19.10.2022_file_copy/out/production/Example_19.10.2022_file_copy/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Example_19.10.2022_file_copy/out/production/Example_19.10.2022_file_copy/Main.class" afterDir="false" />
@@ -184,8 +180,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666262245792</updated>
-      <workItem from="1666262247347" duration="16824000" />
+      <workItem from="1666262247347" duration="17261000" />
     </task>
+    <task id="LOCAL-00001" summary="Algorithms Doors">
+      <created>1666831216192</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666831216192</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,5 +205,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Algorithms Doors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Algorithms Doors" />
   </component>
 </project>
