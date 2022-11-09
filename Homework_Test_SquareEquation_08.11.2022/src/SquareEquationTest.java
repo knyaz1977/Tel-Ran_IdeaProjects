@@ -9,47 +9,72 @@ class SquareEquationTest {
     // Необходимо покрыть тестами класс
     // SquareEquation.
 
-    SquareEquation squareEquation;
+    SquareEquation equation;
 
     @Test
     void solutionTest() {
-        SquareEquation squareEquation = new SquareEquation(4, 7, 3);
-        Roots result = squareEquation.Solution(4, 7, 3);
-        Assertions.assertEquals(-0.75, result.x2);
-    }
-
-    @Test
-    void solutionTest1() {
-        SquareEquation squareEquation = new SquareEquation(4, 7, 3);
-        Roots result = squareEquation.Solution(4, 7, 3);
-        Assertions.assertEquals(-1, result.x1);
+        Roots result = new Roots();
+        result.x1 = -3;
+        result.x2 = 2;
+        SquareEquation equation = new SquareEquation(1, 1, -6);
+        Roots roots = equation.solution();
+        Assertions.assertEquals(-3, roots.x1);
+        Assertions.assertEquals(2, roots.x2);
     }
 
     @Test
     void solutionTest2() {
-        SquareEquation squareEquation = new SquareEquation(4, -4, 1);
-        Roots result = squareEquation.Solution(4, -4, 1);
+        Roots result = new Roots();
+        result.x1 = 5;
+        result.x2 = 5;
+        SquareEquation equation = new SquareEquation(1, -10, 25);
+        Roots roots = equation.solution();
+        Assertions.assertEquals(5, roots.x1);
+        Assertions.assertEquals(5, roots.x2);
+
+    }
+@Test
+    void solutionTest3() {
+    Assertions.assertThrows(ArithmeticException.class, () -> {
+        SquareEquation equation = new SquareEquation(1, 2, 3);
+        equation.solution();
+    });
+
+
+    }
+
+    @Test
+    void solutionTest4() {
+        SquareEquation equation = new SquareEquation(4, 7, 3);
+        Roots result = equation.solution();
+        Assertions.assertEquals(-1, result.x1);
+    }
+
+    @Test
+    void solutionTest5() {
+        SquareEquation equation = new SquareEquation(4, -4, 1);
+        Roots result = equation.solution();
         Assertions.assertEquals(0.5, result.x1);
 
     }
 
     @Test
-    void solutionTest3() {
+    void solutionTest6() {
         SquareEquation squareEquation = new SquareEquation(4, -4, 1);
-        Roots result = squareEquation.Solution(4, -4, 1);
+        Roots result = squareEquation.solution();
         Assertions.assertEquals(0.5, result.x2);
 
     }
 
 //    @Test
-//    void solutionTest4() {
+//    void solutionTest7() {
 //        SquareEquation squareEquation = new SquareEquation(2, 3, 4);
 //        Roots result = squareEquation.Solution(2, 3, 4);
 //        Assertions.assertEquals(-23.0, result.x1);
 //    }
 //
 //    @Test
-//    double solutionTest5() {
+//    double solutionTest8() {
 //        SquareEquation squareEquation = new SquareEquation(2, 3, 4);
 //        Roots result = squareEquation.Solution(2, 3, 4);
 //        Assertions.assertFalse( false, "Solution has no roots");

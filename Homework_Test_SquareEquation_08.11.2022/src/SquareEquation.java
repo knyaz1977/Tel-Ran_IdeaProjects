@@ -10,7 +10,7 @@ public class SquareEquation {
     }
 
     // Метод, решающий квадратное уравнение
-    public Roots Solution(double a, double b, double c) throws ArithmeticException {
+    public Roots solution() throws ArithmeticException {
         // Дискриминант
         double d = b * b - 4 * a * c;
 
