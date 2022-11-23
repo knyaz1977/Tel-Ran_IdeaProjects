@@ -28,10 +28,7 @@ class AnotherThread extends Thread {
                 throw new RuntimeException(e);
             }
         }
-//        int aCount = count.getCount();
-//        System.out.println("finalAddCount: " + aCount);
-//        int result = sCount+aCount
-//        System.out.println("addCount: " + count1.getCount());
+
     }
 
 }
@@ -53,10 +50,5 @@ public class MainThread   //Класс с методом main()
                 throw new RuntimeException(e);
             }
         }
-
-//        int sCount = count.getCount();
-//        System.out.println("subCount + addCount: " + count.getCount() );
-//        System.out.println("finalSubCount: " + sCount);
-
     }
 }
