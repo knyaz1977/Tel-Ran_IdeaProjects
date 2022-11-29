@@ -1,5 +1,7 @@
+import java.util.ArrayList;
+
 public class Main {
-// First level: Написать класс Counter, в котором есть одно целочисленное поле count (инициализировано нулем).
+    // First level: Написать класс Counter, в котором есть одно целочисленное поле count (инициализировано нулем).
 // В классе реализовать два метода add и sub. Первый метод увеличивает значение count
 // на 1, второй - уменьшает на 1. Запустить два потока: в первом в цикле (можно 100 раз)
 // вызвать метод add, во втором потоке столько же раз вызвать метод sub. В цикле, после каждой итерации,
@@ -15,11 +17,12 @@ public class Main {
 //                }
 //            }
 //        });
+
     public static void main(String[] args) {
-        Counter c = new Counter();
+        Counter counter = new Counter();
         Thread thread1 = new Thread(() -> {
             for (int i = 0; i < 10; i++) {
-                c.add();
+                counter.add();
                 try {
                     Thread.sleep(100);
                 } catch (InterruptedException e) {
@@ -31,7 +34,7 @@ public class Main {
 
         Thread thread2 = new Thread(() -> {
             for (int i = 0; i < 10; i++) {
-                c.sub();
+                counter.sub();
                 try {
                     Thread.sleep(100);
                 } catch (InterruptedException e) {
@@ -47,16 +50,12 @@ public class Main {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println(c.getCount()); // Выведется только после того как потоки отработают до конца благодаря join!!!
+        System.out.println(counter.getCount()); // Выведется только после того как потоки отработают до конца благодаря join!!!
     }
 }
 
 class Counter {
-    private int count;
-
-    public int getCount() {
-        return count;
-    }
+    private int count = 0;
 
     public synchronized void add() {
         count++;
@@ -64,5 +63,9 @@ class Counter {
 
     public synchronized void sub() {
         count--;
+    }
+
+    public int getCount() {
+        return count;
     }
 }
